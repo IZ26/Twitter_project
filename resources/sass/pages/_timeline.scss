@@ -1,0 +1,133 @@
+.home{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 30px;
+  padding-right: 26%;
+  padding-top: 30px;
+}
+.account__container{
+  position: relative;
+}
+.account__top{
+  width: 100%;
+  height: 80px;
+  background-color: $lightBlue;
+}
+.avatar__container{
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: $white;
+  border: 1px solid $lightBlue;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+.account__bottom{
+  background-color: $white;
+}
+.account__info{
+  padding-top: 15px;
+  padding-left: 35%;
+}
+.username{
+  letter-spacing: 0.5px;
+  color: #000;
+}
+.account__activity{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  strong{
+    color: grey;
+    font-weight: 600;
+    font-size: 12px;
+  }
+}
+.account__activity-info{
+  padding: 20px 15px 10px;
+}
+
+.timeline__container{
+  width: 65%;
+}
+
+.tweet__form{
+  background-color: $lightBlue;
+  display: flex;
+  align-items: flex-start;
+}
+.avatar__tweet{
+  width: 55px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: $white;
+  border: 1px solid $lightBlue;
+  margin: 20px 15px 0 25px;
+}
+.form{
+  width: 78%;
+  text-align: right
+}
+.tweet__input{
+  width: 100%;
+  height: 60px;
+  border: 1px solid $blue;
+  border-radius: 10px;
+  padding: 5px 5px;
+  font-size: 12px;
+}
+.btn__tweet{
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: $blue;
+  color: $white;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.timeline{
+  background-color: $white;
+}
+.tweet__container{
+  padding: 15px 25px;
+  border-bottom: 1px solid $lightBlue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.avatar__tweet-timeline{
+  width: 55px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: $white;
+  border: 1px solid $lightBlue;
+}
+.tweet__time{
+  font-size: 10px;
+  color: $red;
+}
+.tweet__content{
+  width: 75%;
+  padding: 0 25px;
+}
+.tweet{
+  font-size: 11px;
+  padding-top: 10px;
+}
+.btn__follow{
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font-size: 8px;
+  background-color: $blue;
+  color: $white;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 20px;
+}
+.number {
+  color: #000;
+}

@@ -1,0 +1,78 @@
+.account__page-info{
+  position: relative;
+}
+.account__page-top{
+  height: 150px;
+  background-color: $lightBlue;
+}
+.avatar__account{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background-color: $white;
+  border: 1px solid $lightBlue;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+.account__item-info{
+  padding: 20px 20px 10px;
+  text-align: center;
+  border-bottom: 2px solid $white;
+  strong{
+    color: $grey;
+  }
+}
+.account__item-info:hover{
+  border-bottom: 2px solid $blue;
+  p{
+    color: $blue;
+  }
+}
+.account__page-bottom{
+  background-color: $white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 230px;
+}
+.account_username{
+  margin-top: 10px;
+  margin-left: 170px;
+  color: #000;
+}
+.btn__follow-account{
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: $blue;
+  color: $white;
+  border-radius: 15px;
+  border: none;
+  margin-top: 17px;
+  margin-left: 200px;
+}
+.btn__edit-account{
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: $blue;
+  color: $white;
+  border-radius: 15px;
+  border: none;
+  margin-top: 17px;
+  margin-left: 200px;
+}
+.content__account{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 50px;
+}
+
+.timeline__account{
+  width: 100%;
+  background-color: $white;
+}

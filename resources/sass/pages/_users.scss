@@ -1,0 +1,27 @@
+.users_container{
+  background-color: $white;
+  width: 50%;
+  margin-left: 50%;
+  margin-top: 30px;
+  transform: translateX(-50%);
+}
+.users{
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid $lightBlue;
+}
+.user_name{
+  color: #000;
+}
+.user_name:hover{
+  color: $twitterColor;
+}
+.avatar__users{
+  width: 55px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: $white;
+  border: 1px solid $lightBlue;
+  margin-right: 15px;
+}
